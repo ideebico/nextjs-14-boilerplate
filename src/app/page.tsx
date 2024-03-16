@@ -47,7 +47,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <div className="mx-auto h-[1px] max-w-[980px] bg-gradient-to-r from-background via-muted to-background" />
+      <div className="mx-auto h-px max-w-[980px] bg-gradient-to-r from-background via-muted to-background" />
       <section
         id="modules"
         className="container grid items-center gap-6 py-12 md:py-20"
@@ -64,7 +64,7 @@ export default function Home() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Icons.reactLogo className="mr-2 h-6 w-6" />
+                <Icons.reactLogo className="mr-2 size-6" />
                 React
               </CardTitle>
               <CardDescription>v18</CardDescription>
@@ -76,7 +76,7 @@ export default function Home() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Icons.nextLogo className="mr-2 h-6 w-6" />
+                <Icons.nextLogo className="mr-2 size-6" />
                 Next.js
               </CardTitle>
               <CardDescription>v14</CardDescription>
@@ -88,7 +88,7 @@ export default function Home() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Icons.tailwindLogo className="mr-2 h-6 w-6" />
+                <Icons.tailwindLogo className="mr-2 size-6" />
                 TailwindCSS
               </CardTitle>
               <CardDescription>v3</CardDescription>
@@ -98,7 +98,7 @@ export default function Home() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Icons.typescriptLogo className="mr-2 h-6 w-6" />
+                <Icons.typescriptLogo className="mr-2 size-6" />
                 TypeScript
               </CardTitle>
               <CardDescription>v5</CardDescription>
@@ -110,7 +110,7 @@ export default function Home() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center">
-                <Icons.nextLogo className="mr-2 h-6 w-6" />
+                <Icons.nextLogo className="mr-2 size-6" />
                 Next Themes
               </CardTitle>
               <CardDescription>v0.2</CardDescription>

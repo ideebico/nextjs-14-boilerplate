@@ -25,7 +25,7 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.facebookLogo className="h-5 w-5" />
+                <Icons.facebookLogo className="size-5" />
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
@@ -40,7 +40,7 @@ export function SiteHeader() {
                   variant: "ghost",
                 })}
               >
-                <Icons.twitterLogo className="h-5 w-5 fill-current" />
+                <Icons.twitterLogo className="size-5 fill-current" />
                 <span className="sr-only">Twitter</span>
               </div>
             </Link>

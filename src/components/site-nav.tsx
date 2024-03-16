@@ -25,7 +25,7 @@ export function SiteNav({ items }: SiteNavProps) {
   return (
     <div className="flex w-full justify-between md:justify-normal md:gap-10">
       <Link href="/" className="flex items-center space-x-2">
-        <Icons.nextLogo className="h-6 w-6" />
+        <Icons.nextLogo className="size-6" />
         <span className="inline-block font-bold">{siteConfig.name}</span>
       </Link>
       {items?.length ? (
@@ -63,7 +63,7 @@ export function SiteNav({ items }: SiteNavProps) {
                   </Link>
                 )
             )}
-            <div className="mx-auto h-[1px] w-full max-w-[980px] bg-gradient-to-r from-background via-muted to-background" />
+            <div className="mx-auto h-px w-full max-w-[980px] bg-gradient-to-r from-background via-muted to-background" />
             <div className="flex gap-4">
               <Link
                 href={siteConfig.socialNav.facebook}
@@ -76,7 +76,7 @@ export function SiteNav({ items }: SiteNavProps) {
                     variant: "ghost",
                   })}
                 >
-                  <Icons.facebookLogo className="h-5 w-5" />
+                  <Icons.facebookLogo className="size-5" />
                   <span className="sr-only">GitHub</span>
                 </div>
               </Link>
@@ -91,7 +91,7 @@ export function SiteNav({ items }: SiteNavProps) {
                     variant: "ghost",
                   })}
                 >
-                  <Icons.twitterLogo className="h-5 w-5 fill-current" />
+                  <Icons.twitterLogo className="size-5 fill-current" />
                   <span className="sr-only">Twitter</span>
                 </div>
               </Link>
